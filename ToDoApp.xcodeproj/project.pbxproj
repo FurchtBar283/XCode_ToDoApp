@@ -15,6 +15,7 @@
 		16E394021C30039A00EE9AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E394001C30039A00EE9AB6 /* LaunchScreen.storyboard */; };
 		16E3940D1C30039A00EE9AB6 /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E3940C1C30039A00EE9AB6 /* ToDoAppTests.swift */; };
 		16E394181C30039A00EE9AB6 /* ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E394171C30039A00EE9AB6 /* ToDoAppUITests.swift */; };
+		16E394261C300E8A00EE9AB6 /* NewToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E394251C300E8A00EE9AB6 /* NewToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		16E394131C30039A00EE9AB6 /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E394171C30039A00EE9AB6 /* ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITests.swift; sourceTree = "<group>"; };
 		16E394191C30039A00EE9AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16E394251C300E8A00EE9AB6 /* NewToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				16E394001C30039A00EE9AB6 /* LaunchScreen.storyboard */,
 				16E394031C30039A00EE9AB6 /* Info.plist */,
 				16E393FB1C30039A00EE9AB6 /* ToDoApp.xcdatamodeld */,
+				16E394251C300E8A00EE9AB6 /* NewToDoViewController.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E393F71C30039A00EE9AB6 /* ViewController.swift in Sources */,
+				16E394261C300E8A00EE9AB6 /* NewToDoViewController.swift in Sources */,
 				16E393FD1C30039A00EE9AB6 /* ToDoApp.xcdatamodeld in Sources */,
 				16E393F51C30039A00EE9AB6 /* AppDelegate.swift in Sources */,
 			);
